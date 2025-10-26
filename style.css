@@ -2,6 +2,30 @@
     display: flex;
 }
 
+.main-container .container__animal-unit {
+    display: block;
+    width: calc(100vw / 3);
+
+}
+
+.search-bar {
+    background-color: #ffa042;
+}
+
+.search-bar__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 10px 25px;
+}
+
+.search-bar__info .info-text {
+    margin: 0;
+    margin-right: auto;
+}
+
 .container__animal-unit {
     display: block;
     width: 600px;
@@ -13,4 +37,39 @@
 
 .guide__buttons-section .guide__button {
     display: block;
+}
+
+
+
+
+.guide__buttons-section {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Позволяем переноситься на новую строку, если не влезут */
+
+    margin-bottom: 10px;
+}
+
+.guide__buttons-section li a {
+    text-decoration: none;
+    color: #000;
+
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin-right: 20px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+/* (Опционально) Добавляем эффект при наведении мыши для красоты */
+.guide__buttons-section li a:hover {
+    color: #669900;
+    /* Слегка меняем цвет */
 }

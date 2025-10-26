@@ -1,1 +1,10 @@
 https://zoo.waw.pl/
+
+git branch cat         # создать ветку
+git switch cat         # перейти в неё
+# ... меняешь файлы ...
+git add .
+git commit -m "добавил секцию про кота"
+git switch main        # обратно в основную
+git merge cat          # влить изменения
+git branch -d cat      # удалить ветку

@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.main-animal-unit__container {
+.container__animal-unit {
     display: block;
     width: 600px;
 }

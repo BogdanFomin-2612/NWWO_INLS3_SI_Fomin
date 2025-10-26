@@ -6,3 +6,11 @@
     display: block;
     width: 600px;
 }
+
+.search-bar__guide .guide__buttons-section {
+    display: flex;
+}
+
+.guide__buttons-section .guide__button {
+    display: block;
+}

@@ -1,0 +1,8 @@
+.main-container {
+    display: flex;
+}
+
+.main-animal-unit__container {
+    display: block;
+    width: 600px;
+}

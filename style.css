@@ -4,6 +4,7 @@
 
 .main-container .container__animal-unit {
     display: block;
+    width: calc(100vw / 3);
 
 }
 
@@ -71,4 +72,14 @@
 .guide__buttons-section li a:hover {
     color: #669900;
     /* Слегка меняем цвет */
+}
+
+
+
+.footer__container {
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    background-color: #ffa042;
 }

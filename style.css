@@ -70,7 +70,8 @@
 
 /* (Опционально) Добавляем эффект при наведении мыши для красоты */
 .guide__buttons-section li a:hover {
-    color: #669900;
+    /* color: #ffa1a1; */
+    color: aliceblue;
     /* Слегка меняем цвет */
 }
 
@@ -81,5 +82,6 @@
     align-items: center;
     text-align: center;
 
-    background-color: #ffa042;
+    /* background-color: #ffa042; */
+    background-color: #669900;
 }

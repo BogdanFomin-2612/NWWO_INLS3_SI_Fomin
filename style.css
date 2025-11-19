@@ -9,7 +9,8 @@
 }
 
 .search-bar {
-    background-color: #ffa042;
+    background-color: #9c31ff;
+    color: #ffa1a1;
 }
 
 .search-bar__info {
@@ -70,7 +71,7 @@
 
 /* (Опционально) Добавляем эффект при наведении мыши для красоты */
 .guide__buttons-section li a:hover {
-    /* color: #ffa1a1; */
+    color: #ffa1a1;
     color: aliceblue;
     /* Слегка меняем цвет */
 }

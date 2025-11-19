@@ -54,7 +54,8 @@
     flex-wrap: wrap;
     /* Позволяем переноситься на новую строку, если не влезут */
 
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-bottom: 30px;
 }
 
 .guide__buttons-section li a {
